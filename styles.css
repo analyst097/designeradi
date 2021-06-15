@@ -39,14 +39,14 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
-  background-image: url("img/selfie.jpg");
+  background-image: url("img/dp-3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 200px;
   height: 200px;
   background-position: center;
   border-radius: 50%;
-  border: 0.5rem solid #4da770;
+  border: 0.3rem solid rgba(245, 245, 245, 0.993);
   box-shadow: 1px 1px 30px #444;
 }
 
@@ -63,6 +63,18 @@ body {
   margin-top: 1rem;
   text-align: center;
   font-size: 1.2rem;
+}
+
+.social {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: rgba(250, 242, 242, 0.644);
+}
+
+.social img {
+  width: 40px;
 }
 
 .nav-links {
