@@ -1,0 +1,108 @@
+/* SCSS HEX */
+$black-coral: #646e78ff;
+$cadet-grey: #8d98a7ff;
+$almond: #dcccbbff;
+$sunray: #eab464ff;
+$cafe-au-lait: #a7754dff;
+
+/* SCSS HEX */
+$celeste: #c5fffdff;
+$middle-blue: #88d9e6ff;
+$cool-grey: #8b8baeff;
+$feldgrau: #526760ff;
+$dark-slate-gray: #374b4aff;
+
+/* SCSS HEX */
+$lapis-lazuli: #336699ff;
+$dark-sky-blue: #86bbd8ff;
+$charcoal: #2f4858ff;
+$granny-smith-apple: #9ee493ff;
+$nyanza: #daf7dcff;
+
+//https://coolors.co/2d3142-bfc0c0-ffffff-ef8354-4f5d75
+//https://coolors.co/068d9d-53599a-6d9dc5-80ded9-aeecef
+//https://coolors.co/f7f4ea-ded9e2-c0b9dd-80a1d4-75c9c8
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/wall1.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: blur();
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+
+.hero-section {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  background-image: url("img/selfie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  border-radius: 50%;
+  border: 0.5rem solid rgb(77, 167, 112);
+  box-shadow: 1px 1px 30px #444;
+}
+
+.card-body {
+  transition: all 1s ease;
+}
+
+.card-header {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.card-text {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  background-color: rgba(185, 185, 185, 0.192);
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #eee;
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: rgba(204, 204, 204, 0.26);
+  box-shadow: 1px 1px 10px #222;
+}
